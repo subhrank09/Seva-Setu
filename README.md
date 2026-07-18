@@ -139,7 +139,7 @@ Built with a modern **React + Node + PostgreSQL** stack, SevaSetu focuses on rea
 
 | Home Page | Citizen Dashboard |
 |:---:|:---:|
-| ![Home](/images/Dashbuoard.png) | ![Dashboard](/images/Citizen.jpeg) |
+| ![Home](/images/Dashboard.png) | ![Dashboard](/images/Citizen.jpeg) |
 
 | Admin Panel | Worker Panel |
 |:---:|:---:|
