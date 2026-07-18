@@ -14,7 +14,6 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/)
 [![Deployed on Render](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render&logoColor=white)](https://render.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/your-username/sevasetu?style=social)](https://github.com/subhrank09/sevasetu/stargazers)
 
 [🚀 Live Demo](https://seva-setu-4nhmd8atl-subhrank-priyas-projects.vercel.app/) · [📦 Repository](https://github.com/subhrank09/Seva-Setu)
 
