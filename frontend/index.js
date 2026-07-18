@@ -1,0 +1,41 @@
+require("dotenv").config();
+const express = require("express");
+const protect = require("./middleware/authMiddleware");
+const authRoutes = require("./routes/authRoutes");
+const complaintRoutes = require("./routes/complaintRoutes");
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
+const cors = require("cors");
+const PORT = process.env.PORT || 5000;
+async function testDB() {
+  try {
+    await prisma.$connect();
+    console.log("✅ DB Connected");
+  } catch (err) {
+    console.error("❌ DB Error:", err.message);
+  }
+}
+
+testDB();
+const app = express();
+app.use(cors({
+  origin: "http://localhost:5173",
+  credentials: true
+}));
+app.use(express.json());
+
+app.use("/api/auth", authRoutes);
+
+app.get("/", (req, res) => {
+  res.send("API Running");
+});
+app.get("/api/protected", protect, (req, res) => {
+  res.json({
+    message: "Protected route accessed",
+    user: req.user,
+  });
+});
+app.use("/api/complaints", complaintRoutes);
+app.listen(PORT, () => {
+  console.log("Server running on port 5000");
+});
