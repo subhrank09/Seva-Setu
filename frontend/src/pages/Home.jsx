@@ -123,7 +123,7 @@ export default function Home() {
           className="flex justify-center"
         >
           <img
-            src="./public/city.jpg"
+            src="/city.jpg"
             alt="city"
             className="w-full max-w-lg drop-shadow-2xl"
           />
