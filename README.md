@@ -654,9 +654,9 @@ MIT License © 2026 SevaSetu Contributors
 
 **Built with ❤️ by Subhrank Priya**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/subhrank09)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhrank-priya/)
+
 
 </div>
 
@@ -683,7 +683,7 @@ If you found this project helpful, please consider giving it a ⭐ — it helps 
 
 | Platform | Link |
 |---|---|
-| 📧 Email | your.email@example.com |
+| 📧 Email | subhrank42official@gmail.com |
 | 💼 LinkedIn | [linkedin.com/in/subhrank-priya](https://www.linkedin.com/in/subhrank-priya/) |
 | 🐙 GitHub | [github.com/subhrank09](https://github.com/subhrank09/Seva-Setu) |
 
