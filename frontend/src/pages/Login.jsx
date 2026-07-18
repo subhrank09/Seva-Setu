@@ -10,8 +10,7 @@ import {
   Bell,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import axios from "axios";
-
+import API from "../services/api";
 export default function Login() {
   const navigate = useNavigate();
 
@@ -33,10 +32,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const res = await axios.post(
-        "http://import.meta.env.VITE_API_URL/api/auth/login",
-        form
-      );
+      const res = await API.post("/auth/login", form);
 
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));

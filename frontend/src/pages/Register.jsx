@@ -11,7 +11,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import axios from "axios";
+import API from "../services/api";
 
 export default function Register() {
   const navigate = useNavigate();
@@ -61,10 +61,7 @@ export default function Register() {
         payload.adminKey = form.adminKey;
       }
 
-      const res = await axios.post(
-        "http://import.meta.env.VITE_API_URL/api/auth/register",
-        payload
-      );
+      const res = await API.post("/auth/register", payload);
 
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));
