@@ -1,15 +1,27 @@
 {
-  "name": "server",
+  "name": "sevasetu-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "SevaSetu Municipal Complaint Management System Backend",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy",
+    "prisma:push": "prisma db push"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "prisma",
+    "postgresql",
+    "municipal",
+    "complaint-management",
+    "sevasetu"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "bcrypt": "^6.0.0",
@@ -22,6 +34,7 @@
     "multer-storage-cloudinary": "^4.0.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.10",
     "prisma": "^5.22.0"
   }
 }
