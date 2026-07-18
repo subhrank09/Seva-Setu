@@ -22,6 +22,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "https://seva-setu-eogor72en-subhrank-priyas-projects.vercel.app",
   "https://seva-setu-brown.vercel.app",
+  "https://seva-setu-4nhmd8atl-subhrank-priyas-projects.vercel.app/",
 ];
 
 app.use(
