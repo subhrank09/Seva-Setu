@@ -62,7 +62,7 @@ export default function Register() {
       }
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "http://import.meta.env.VITE_API_URL/api/auth/register",
         payload
       );
 
