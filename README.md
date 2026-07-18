@@ -16,7 +16,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/your-username/sevasetu?style=social)](https://github.com/your-username/sevasetu/stargazers)
 
-[🚀 Live Demo](#) · [📦 Repository](#) · [🐛 Report Bug](#) · [✨ Request Feature](#)
+[🚀 Live Demo](https://seva-setu-4nhmd8atl-subhrank-priyas-projects.vercel.app/) · [📦 Repository](https://github.com/subhrank09/Seva-Setu)
 
 </div>
 
@@ -66,12 +66,9 @@ Built with a modern **React + Node + PostgreSQL** stack, SevaSetu focuses on rea
 
 | Environment | Link |
 |-------------|------|
-| 🌐 Frontend (Vercel) | [https://sevasetu.vercel.app](#) |
-| ⚙️ Backend API (Render) | [https://sevasetu-api.onrender.com](#) |
-| 📦 GitHub Repository | [https://github.com/your-username/sevasetu](#) |
-
-> [!NOTE]
-> Demo credentials can be requested via [Issues](#) or found in `/docs/demo-credentials.md` (create this file if distributing publicly).
+| 🌐 Frontend (Vercel) | [https://sevasetu.vercel.app](https://seva-setu-4nhmd8atl-subhrank-priyas-projects.vercel.app/) |
+| ⚙️ Backend API (Render) | [https://sevasetu-api.onrender.com](https://seva-setu-backend-opzp.onrender.com/) |
+| 📦 GitHub Repository | [https://github.com/subhrank09/sevasetu](https://github.com/subhrank09/Seva-Setu) |
 
 ---
 
@@ -142,20 +139,18 @@ Built with a modern **React + Node + PostgreSQL** stack, SevaSetu focuses on rea
 
 | Home Page | Citizen Dashboard |
 |:---:|:---:|
-| ![Home](/images/home.png) | ![Dashboard](/images/dashboard.png) |
+| ![Home](/images/Dashbuoard.png) | ![Dashboard](/images/Citizen.jpeg) |
 
 | Admin Panel | Worker Panel |
 |:---:|:---:|
-| ![Admin](/images/admin.png) | ![Worker](/images/worker.png) |
+| ![Admin](/images/Admin.jpeg) | ![Worker](/images/Working.jpeg) |
 
 | Report Complaint Page |
 |:---:|
-| ![Report](/images/report.png) |
+| ![Report](/images/Create.jpeg) |
 
 </div>
 
-> [!TIP]
-> Replace these placeholders with actual screenshots stored in `/public/images/` before publishing.
 
 ---
 
@@ -657,7 +652,7 @@ MIT License © 2026 SevaSetu Contributors
 
 <div align="center">
 
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by Subhrank Priya**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
@@ -682,8 +677,6 @@ MIT License © 2026 SevaSetu Contributors
 
 If you found this project helpful, please consider giving it a ⭐ — it helps others discover the project and motivates continued development!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/sevasetu&type=Date)](https://star-history.com/#your-username/sevasetu&Date)
-
 ---
 
 ## 📬 Contact
@@ -691,7 +684,7 @@ If you found this project helpful, please consider giving it a ⭐ — it helps 
 | Platform | Link |
 |---|---|
 | 📧 Email | your.email@example.com |
-| 💼 LinkedIn | [linkedin.com/in/your-profile](#) |
+| 💼 LinkedIn | [linkedin.com/in/subhrank-priya](https://www.linkedin.com/in/subhrank-priya/) |
 | 🐙 GitHub | [github.com/subhrank09](https://github.com/subhrank09/Seva-Setu) |
 
 ---
