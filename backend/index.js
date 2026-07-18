@@ -27,7 +27,10 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
-  res.send("API Running");
+  res.json({
+    success: true,
+    message: "SevaSetu Backend is Running 🚀"
+  });
 });
 app.get("/api/protected", protect, (req, res) => {
   res.json({
